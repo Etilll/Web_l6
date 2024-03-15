@@ -1,0 +1,1 @@
+SELECT avg(value) as averages FROM marks

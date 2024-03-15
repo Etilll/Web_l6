@@ -1,0 +1,1 @@
+SELECT student_id, subject_id, name FROM (SELECT * FROM marks m LEFT JOIN subjects s ON m.subject_id = s.id WHERE student_id = 21 GROUP BY subject_id)

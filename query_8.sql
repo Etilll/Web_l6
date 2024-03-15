@@ -1,0 +1,1 @@
+SELECT avg(value) as average FROM marks m LEFT JOIN subjects s ON m.subject_id = s.id WHERE teacher_id = 2
